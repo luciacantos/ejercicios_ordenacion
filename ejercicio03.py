@@ -13,4 +13,12 @@ for _ in range (n):
     a,b = map(int, input().split())
     horarios.append((a,b))
 
-horarios.sort(key=lambda x: x[1]) 
+horarios.sort(key=lambda x: x[1])
+
+total = 0
+ultima_pelicula = 0
+
+for inicio, final in horarios:
+    if inicio >= ultima_pelicula:
+        total += 1
+        ultima_pelicula = final

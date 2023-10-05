@@ -9,3 +9,6 @@ Dispones de todos los horarios con la hora a la que empieza y acaba cada pelícu
 n = int(input())
 horarios = []
 
+for _ in range (n):
+    a,b = map(int, input().split())
+    horarios.append((a,b))

@@ -12,3 +12,6 @@ pesos = list(map(int, input().split()))
 
 pesos.sort()
 
+izq = 0
+dcha = n - 1
+gondolas = 0

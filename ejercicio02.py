@@ -15,3 +15,10 @@ pesos.sort()
 izq = 0
 dcha = n - 1
 gondolas = 0
+
+while izq <= dcha:
+    if pesos[izq] + pesos[dcha] <= x:
+        izq += 1
+    dcha -= 1
+    gondolas += 1
+    

@@ -22,3 +22,5 @@ for inicio, final in horarios:
     if inicio >= ultima_pelicula:
         total += 1
         ultima_pelicula = final
+
+print(total)

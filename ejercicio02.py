@@ -21,4 +21,5 @@ while izq <= dcha:
         izq += 1
     dcha -= 1
     gondolas += 1
-    
+
+print(gondolas)

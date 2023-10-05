@@ -14,3 +14,9 @@ for _ in range (t):
     n = int(input())
     A = list(map(int, input().split()))
 
+    identificadores = set()
+
+    for identificador in A:
+        identificadores.add(identificador)
+        
+

@@ -18,5 +18,7 @@ for _ in range (t):
 
     for identificador in A:
         identificadores.add(identificador)
-        
+
+    solucion = len(identificadores)
+    print(solucion)
 

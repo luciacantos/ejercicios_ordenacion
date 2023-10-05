@@ -12,3 +12,5 @@ horarios = []
 for _ in range (n):
     a,b = map(int, input().split())
     horarios.append((a,b))
+
+horarios.sort(key=lambda x: x[1]) 
